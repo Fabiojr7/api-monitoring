@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: api-monitoring
+  data:
+    mongodb:
+      options:
+        connect-timeout: 5000
+        socket-timeout: 30000
+        server-selection-timeout: 3000
+        max-connection-pool-size: 20
+        min-connection-pool-size: 10
+        heartbeat-frequency: 10000
+        min-heartbeat-frequency: 500
